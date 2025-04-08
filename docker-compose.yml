@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  syclpbd:
+    image: syclpbd
+    build:
+      context: .
+      dockerfile: ./Dockerfile
